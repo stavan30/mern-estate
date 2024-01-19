@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import React from 'react'
 
 export default function SignUp() {
   return (
@@ -20,12 +20,6 @@ export default function SignUp() {
           Sign Up
         </button>        
       </form>
-      <div className='flex gap-2 mt-5'>
-        <p>Have an account? </p>
-        <Link to={"/sign-in"}>
-          <span className='text-blue-700'>Sign In</span>
-        </Link>
-      </div>
     </div>
   )
 }
